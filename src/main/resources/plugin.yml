@@ -1,0 +1,14 @@
+name: CurraheePortal
+version: '1.0.0'
+main: cz.currahee.portal.CurraheePortal
+api-version: '1.21'
+author: Currahee
+commands:
+  portal:
+    description: Nastaveni skakaciho portalu do survival sveta
+    usage: /portal <build|remove|info>
+    permission: curraheeportal.admin
+permissions:
+  curraheeportal.admin:
+    description: Sprava portalu
+    default: op

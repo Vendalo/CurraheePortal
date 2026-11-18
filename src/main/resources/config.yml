@@ -1,0 +1,8 @@
+portal:
+  enabled: false
+  world: world
+  x: 0
+  y: 64
+  z: 0
+destination:
+  world: survival
